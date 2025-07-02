@@ -1,1 +1,83 @@
-# astromiah.github.io
+title: "Messages from the Universe"
+logo:
+  text: "Messages from the universe" 
+email: humairamiah1@hotmail.com
+description: "insights, reflections and epiphanies on my journey of physics"
+baseurl: ""
+url: "https://astromiah.github.io"
+repository: "astromiah.github.io"
+
+
+theme: minimal-mistakes-jekyll
+markdown: kramdown
+paginate: 5
+
+ 
+twitter_username: ""
+github_username: "astromiah"
+minimal_mistakes_skin: "dark"
+search: true
+
+
+remote_theme: mmistakes/minimal-mistakes
+# Outputting
+permalink: /:categories/:title/
+paginate: 4
+paginate_path: "/page:num/"
+timezone: Europe/London
+
+
+include:
+  - _pages
+
+
+author:
+  name   : "Astromiah"
+  bio    : "Insights, Reflections and Epiphanies on my journey through Physics"
+  links: 
+  - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://astromiah.github.io" 
+  - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/astromiah"
+
+
+footer:
+  links: 
+  - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/astromiah" 
+  - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://astromiah.github.io"
+  copyright: "ⓒ 2025 Astromiah. All Rights Reserved."
+
+  
+defaults: 
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
+
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+
+category_archive:
+  type: liquid
+  path: /topics/
+tag_archive:
+  type: liquid
+  path: /tags/
