@@ -1,1 +1,1 @@
-# astromiah.github.io
+# astromia.github.io
